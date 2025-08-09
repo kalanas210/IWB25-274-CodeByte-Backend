@@ -1,0 +1,13 @@
+[package]
+org = "socyads"
+name = "socyads_backend"
+version = "0.1.0"
+distribution = "2201.9.0"
+license = ["Apache-2.0"]
+authors = ["Socyads Team"]
+keywords = ["http", "postgresql", "jwt", "marketplace", "escrow"]
+
+[build-options]
+observabilityIncluded = true
+
+
