@@ -5,7 +5,7 @@ service class AdminService {
     private final http:RequestInterceptor interceptor;
 
     public function init(http:RequestInterceptor interceptor) {
-        self.interceptor = interceptor;
+        self.interceptor = interceptor; 
     }
 
     resource function get dashboard() returns http:Response|error {

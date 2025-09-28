@@ -1,4 +1,4 @@
-import ballerina/http;
+bimport ballerina/http;
 
 type CreateOrderPayload record {|
     int gigId;
